@@ -1,0 +1,1377 @@
+{
+  "metadata": {
+    "id": "level_42f103d3",
+    "title": "Dragon's Lair: Knight's Descent",
+    "genre": "RPG",
+    "style": "medieval",
+    "prompt": "Create a playable medieval RPG set in a dark dungeon where the player controls a knight fighting enemies. The final boss is a dragon with multiple attack phases.",
+    "createdAt": 1768607280057,
+    "updatedAt": 1768607280057,
+    "dataPath": "level_42f103d3.json",
+    "roomCount": 6,
+    "assetCount": 5
+  },
+  "sessionState": {
+    "session_id": "4eb8994a-efa1-4a55-9f2e-ec71d146b8db",
+    "prompt": "Create a playable medieval RPG set in a dark dungeon where the player controls a knight fighting enemies. The final boss is a dragon with multiple attack phases.",
+    "created_at": 1768607151781,
+    "updated_at": 1768607280024,
+    "progress": {
+      "step": "ready",
+      "status": "done"
+    },
+    "assets": [
+      {
+        "id": "char_001",
+        "name": "Sir Gareth the Bold",
+        "type": "character",
+        "path": "/assets/char_001.glb",
+        "status": "ready",
+        "prompt": "medieval knight character, game character, low poly stylized, plate armor, longsword, shield, heroic pose, weathered metal textures"
+      },
+      {
+        "id": "char_002",
+        "name": "Shadowfang the Ancient",
+        "type": "character",
+        "path": "/assets/char_002.glb",
+        "status": "ready",
+        "prompt": "ancient black dragon, game character, low poly stylized, massive wings, scarred scales, glowing red eyes, dark fantasy creature"
+      },
+      {
+        "id": "prop_001",
+        "name": "Ancient Treasure Chest",
+        "type": "prop",
+        "path": "/assets/prop_001.glb",
+        "status": "ready",
+        "prompt": "medieval treasure chest, wooden with iron bands, ornate lock, aged textures, fantasy game prop"
+      },
+      {
+        "id": "prop_002",
+        "name": "Dragon Hoard Pile",
+        "type": "prop",
+        "path": "/assets/prop_002.glb",
+        "status": "ready",
+        "prompt": "dragon treasure hoard, gold coins pile, jewels, medieval artifacts, glittering wealth, fantasy game prop"
+      },
+      {
+        "id": "prop_003",
+        "name": "Dungeon Gate",
+        "type": "prop",
+        "path": "/assets/prop_003.glb",
+        "status": "ready",
+        "prompt": "medieval iron portcullis gate, rusted chains, stone archway, dungeon entrance, weathered metal textures"
+      }
+    ],
+    "game_context": {
+      "game_title": "Dragon's Lair: Knight's Descent",
+      "genre": "RPG",
+      "mood": "dark",
+      "style": "medieval",
+      "level": {
+        "type": "dungeon",
+        "scale": "large",
+        "layout_style": "linear",
+        "constraints": [
+          "stone corridors",
+          "low ceilings",
+          "narrow passages",
+          "chamber rooms",
+          "verticality for boss arena"
+        ]
+      },
+      "characters": [
+        {
+          "id": "char_001",
+          "name": "Sir Gareth the Bold",
+          "role": "protagonist",
+          "description": "A noble knight in weathered plate armor with a surcoat bearing his family crest, wielding a longsword and kite shield",
+          "tripo_prompt": "medieval knight character, game character, low poly stylized, plate armor, longsword, shield, heroic pose, weathered metal textures"
+        },
+        {
+          "id": "char_002",
+          "name": "Shadowfang the Ancient",
+          "role": "antagonist",
+          "description": "A massive black dragon with crimson eyes, scarred hide, and tattered wings, breathing dark flames",
+          "tripo_prompt": "ancient black dragon, game character, low poly stylized, massive wings, scarred scales, glowing red eyes, dark fantasy creature"
+        }
+      ],
+      "environment": {
+        "name": "The Cursed Depths",
+        "description": "A sprawling underground dungeon with moss-covered stone walls, flickering torchlight casting dancing shadows, crumbling archways, and pools of stagnant water reflecting the dim light",
+        "skybox_prompt": "360 degree underground dungeon ceiling view, stone arches, hanging chains, dim torchlight, shadows, medieval stonework, atmospheric fog",
+        "lighting": "dim torchlight",
+        "time_of_day": "indoor"
+      },
+      "props": [
+        {
+          "id": "prop_001",
+          "name": "Ancient Treasure Chest",
+          "description": "An ornate wooden chest bound with iron, partially buried under rubble and glinting with promise",
+          "tripo_prompt": "medieval treasure chest, wooden with iron bands, ornate lock, aged textures, fantasy game prop",
+          "placement_tags": [
+            "mid",
+            "goal"
+          ]
+        },
+        {
+          "id": "prop_002",
+          "name": "Dragon Hoard Pile",
+          "description": "A massive pile of gold coins, jeweled goblets, and ancient artifacts accumulated over centuries",
+          "tripo_prompt": "dragon treasure hoard, gold coins pile, jewels, medieval artifacts, glittering wealth, fantasy game prop",
+          "placement_tags": [
+            "goal"
+          ]
+        },
+        {
+          "id": "prop_003",
+          "name": "Dungeon Gate",
+          "description": "A heavy iron portcullis with rusted chains, partially raised and leading deeper into darkness",
+          "tripo_prompt": "medieval iron portcullis gate, rusted chains, stone archway, dungeon entrance, weathered metal textures",
+          "placement_tags": [
+            "entry",
+            "corridor"
+          ]
+        }
+      ]
+    },
+    "level_layout": {
+      "level": {
+        "name": "The Cursed Depths",
+        "type": "dungeon",
+        "theme": "Ancient stone corridors shrouded in darkness, with flickering torchlight casting ominous shadows",
+        "grid": {
+          "cellSize": 4,
+          "totalWidth": 30,
+          "totalHeight": 50
+        },
+        "rooms": [
+          {
+            "id": "room_1",
+            "name": "Crumbling Entry",
+            "gridX": 12,
+            "gridY": 2,
+            "width": 6,
+            "height": 4,
+            "tags": [
+              "entry"
+            ]
+          },
+          {
+            "id": "room_2",
+            "name": "Hall of Whispers",
+            "gridX": 10,
+            "gridY": 9,
+            "width": 8,
+            "height": 5,
+            "tags": [
+              "combat"
+            ]
+          },
+          {
+            "id": "room_3",
+            "name": "Chamber of Shadows",
+            "gridX": 6,
+            "gridY": 18,
+            "width": 7,
+            "height": 4,
+            "tags": [
+              "puzzle"
+            ]
+          },
+          {
+            "id": "room_4",
+            "name": "Bone Ossuary",
+            "gridX": 15,
+            "gridY": 26,
+            "width": 6,
+            "height": 6,
+            "tags": [
+              "combat"
+            ]
+          },
+          {
+            "id": "room_5",
+            "name": "Forgotten Armory",
+            "gridX": 8,
+            "gridY": 36,
+            "width": 5,
+            "height": 4,
+            "tags": [
+              "treasure"
+            ]
+          },
+          {
+            "id": "room_6",
+            "name": "Dragon's Sanctum",
+            "gridX": 10,
+            "gridY": 44,
+            "width": 8,
+            "height": 6,
+            "tags": [
+              "goal",
+              "boss"
+            ]
+          }
+        ],
+        "corridors": [
+          {
+            "id": "corr_1",
+            "fromRoom": "room_1",
+            "toRoom": "room_2",
+            "segments": [
+              {
+                "startX": 15,
+                "startY": 6,
+                "endX": 15,
+                "endY": 9
+              }
+            ],
+            "widthCells": 1,
+            "startX": 15,
+            "startY": 6,
+            "endX": 15,
+            "endY": 9
+          },
+          {
+            "id": "corr_2",
+            "fromRoom": "room_2",
+            "toRoom": "room_3",
+            "segments": [
+              {
+                "startX": 11,
+                "startY": 14,
+                "endX": 11,
+                "endY": 18
+              }
+            ],
+            "widthCells": 1,
+            "startX": 11,
+            "startY": 14,
+            "endX": 11,
+            "endY": 18
+          },
+          {
+            "id": "corr_3",
+            "fromRoom": "room_3",
+            "toRoom": "room_4",
+            "segments": [
+              {
+                "startX": 13,
+                "startY": 20,
+                "endX": 18,
+                "endY": 20
+              },
+              {
+                "startX": 18,
+                "startY": 20,
+                "endX": 18,
+                "endY": 26
+              }
+            ],
+            "widthCells": 1,
+            "startX": 13,
+            "startY": 20,
+            "endX": 18,
+            "endY": 26
+          },
+          {
+            "id": "corr_4",
+            "fromRoom": "room_4",
+            "toRoom": "room_5",
+            "segments": [
+              {
+                "startX": 15,
+                "startY": 29,
+                "endX": 10,
+                "endY": 29
+              },
+              {
+                "startX": 10,
+                "startY": 29,
+                "endX": 10,
+                "endY": 36
+              }
+            ],
+            "widthCells": 1,
+            "startX": 15,
+            "startY": 29,
+            "endX": 10,
+            "endY": 36
+          },
+          {
+            "id": "corr_5",
+            "fromRoom": "room_5",
+            "toRoom": "room_6",
+            "segments": [
+              {
+                "startX": 11,
+                "startY": 40,
+                "endX": 11,
+                "endY": 44
+              }
+            ],
+            "widthCells": 1,
+            "startX": 11,
+            "startY": 40,
+            "endX": 11,
+            "endY": 44
+          }
+        ],
+        "pois": [
+          {
+            "id": "poi_spawn",
+            "type": "spawn",
+            "roomId": "room_1",
+            "offsetX": 3,
+            "offsetY": 2
+          },
+          {
+            "id": "poi_goal",
+            "type": "goal",
+            "roomId": "room_6",
+            "offsetX": 4,
+            "offsetY": 3
+          },
+          {
+            "id": "poi_treasure",
+            "type": "treasure",
+            "roomId": "room_5",
+            "offsetX": 2,
+            "offsetY": 2
+          },
+          {
+            "id": "poi_boss",
+            "type": "boss",
+            "roomId": "room_6",
+            "offsetX": 4,
+            "offsetY": 4
+          }
+        ],
+        "criticalPath": [
+          "room_1",
+          "room_2",
+          "room_3",
+          "room_4",
+          "room_5",
+          "room_6"
+        ]
+      }
+    },
+    "skybox": {
+      "id": "skybox_main",
+      "path": "/assets/skybox_1768607236270.jpg",
+      "status": "ready",
+      "prompt": "360 degree underground dungeon ceiling view, stone arches, hanging chains, dim torchlight, shadows, medieval stonework, atmospheric fog"
+    },
+    "scene_config": {
+      "skybox_path": "/assets/skybox_1768607236270.jpg",
+      "ambient_light": {
+        "color": "#3a2a1a",
+        "intensity": 0.3
+      },
+      "directional_light": {
+        "color": "#ffffff",
+        "intensity": 0.3,
+        "position": [
+          10,
+          20,
+          10
+        ]
+      },
+      "geometry": {
+        "rooms": [
+          {
+            "id": "room_1",
+            "position": [
+              60,
+              0,
+              16
+            ],
+            "size": [
+              24,
+              0.2,
+              16
+            ],
+            "color": "#3a5a3a",
+            "tags": [
+              "entry"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "brick_wall",
+            "wallColor": "#2a4a2a"
+          },
+          {
+            "id": "room_2",
+            "position": [
+              56,
+              0,
+              46
+            ],
+            "size": [
+              32,
+              0.2,
+              20
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "combat"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_3",
+            "position": [
+              38,
+              0,
+              80
+            ],
+            "size": [
+              28,
+              0.2,
+              16
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "puzzle"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_4",
+            "position": [
+              72,
+              0,
+              116
+            ],
+            "size": [
+              24,
+              0.2,
+              24
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "combat"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_5",
+            "position": [
+              42,
+              0,
+              152
+            ],
+            "size": [
+              20,
+              0.2,
+              16
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "treasure"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_6",
+            "position": [
+              56,
+              0,
+              188
+            ],
+            "size": [
+              32,
+              0.2,
+              24
+            ],
+            "color": "#5a3a3a",
+            "tags": [
+              "goal",
+              "boss"
+            ],
+            "floorTexture": "dark_stone",
+            "wallTexture": "dungeon_wall",
+            "wallColor": "#4a2a2a"
+          }
+        ],
+        "corridors": [
+          {
+            "id": "corr_1",
+            "segments": [
+              {
+                "start": [
+                  60,
+                  0,
+                  24
+                ],
+                "end": [
+                  60,
+                  0,
+                  36
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              60,
+              0,
+              24
+            ],
+            "end": [
+              60,
+              0,
+              36
+            ]
+          },
+          {
+            "id": "corr_2",
+            "segments": [
+              {
+                "start": [
+                  44,
+                  0,
+                  56
+                ],
+                "end": [
+                  44,
+                  0,
+                  72
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              44,
+              0,
+              56
+            ],
+            "end": [
+              44,
+              0,
+              72
+            ]
+          },
+          {
+            "id": "corr_3",
+            "segments": [
+              {
+                "start": [
+                  52,
+                  0,
+                  80
+                ],
+                "end": [
+                  72,
+                  0,
+                  80
+                ]
+              },
+              {
+                "start": [
+                  72,
+                  0,
+                  80
+                ],
+                "end": [
+                  72,
+                  0,
+                  104
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              52,
+              0,
+              80
+            ],
+            "end": [
+              72,
+              0,
+              104
+            ]
+          },
+          {
+            "id": "corr_4",
+            "segments": [
+              {
+                "start": [
+                  60,
+                  0,
+                  116
+                ],
+                "end": [
+                  40,
+                  0,
+                  116
+                ]
+              },
+              {
+                "start": [
+                  40,
+                  0,
+                  116
+                ],
+                "end": [
+                  40,
+                  0,
+                  144
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              60,
+              0,
+              116
+            ],
+            "end": [
+              40,
+              0,
+              144
+            ]
+          },
+          {
+            "id": "corr_5",
+            "segments": [
+              {
+                "start": [
+                  44,
+                  0,
+                  160
+                ],
+                "end": [
+                  44,
+                  0,
+                  176
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              44,
+              0,
+              160
+            ],
+            "end": [
+              44,
+              0,
+              176
+            ]
+          }
+        ],
+        "walls": [
+          {
+            "id": "wall_0",
+            "start": [
+              48,
+              0,
+              8
+            ],
+            "end": [
+              72,
+              0,
+              8
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_1",
+            "start": [
+              48,
+              0,
+              24
+            ],
+            "end": [
+              58,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_2",
+            "start": [
+              62,
+              0,
+              24
+            ],
+            "end": [
+              72,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_3",
+            "start": [
+              48,
+              0,
+              8
+            ],
+            "end": [
+              48,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_4",
+            "start": [
+              72,
+              0,
+              8
+            ],
+            "end": [
+              72,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_5",
+            "start": [
+              40,
+              0,
+              36
+            ],
+            "end": [
+              58,
+              0,
+              36
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_6",
+            "start": [
+              62,
+              0,
+              36
+            ],
+            "end": [
+              72,
+              0,
+              36
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_7",
+            "start": [
+              40,
+              0,
+              56
+            ],
+            "end": [
+              42,
+              0,
+              56
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_8",
+            "start": [
+              46,
+              0,
+              56
+            ],
+            "end": [
+              72,
+              0,
+              56
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_9",
+            "start": [
+              40,
+              0,
+              36
+            ],
+            "end": [
+              40,
+              0,
+              56
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_10",
+            "start": [
+              72,
+              0,
+              36
+            ],
+            "end": [
+              72,
+              0,
+              56
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_11",
+            "start": [
+              24,
+              0,
+              72
+            ],
+            "end": [
+              42,
+              0,
+              72
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_12",
+            "start": [
+              46,
+              0,
+              72
+            ],
+            "end": [
+              52,
+              0,
+              72
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_13",
+            "start": [
+              24,
+              0,
+              88
+            ],
+            "end": [
+              52,
+              0,
+              88
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_14",
+            "start": [
+              24,
+              0,
+              72
+            ],
+            "end": [
+              24,
+              0,
+              88
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_15",
+            "start": [
+              52,
+              0,
+              72
+            ],
+            "end": [
+              52,
+              0,
+              78
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_16",
+            "start": [
+              52,
+              0,
+              82
+            ],
+            "end": [
+              52,
+              0,
+              88
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_17",
+            "start": [
+              60,
+              0,
+              104
+            ],
+            "end": [
+              70,
+              0,
+              104
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_18",
+            "start": [
+              74,
+              0,
+              104
+            ],
+            "end": [
+              84,
+              0,
+              104
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_19",
+            "start": [
+              60,
+              0,
+              128
+            ],
+            "end": [
+              84,
+              0,
+              128
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_20",
+            "start": [
+              60,
+              0,
+              104
+            ],
+            "end": [
+              60,
+              0,
+              114
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_21",
+            "start": [
+              60,
+              0,
+              118
+            ],
+            "end": [
+              60,
+              0,
+              128
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_22",
+            "start": [
+              84,
+              0,
+              104
+            ],
+            "end": [
+              84,
+              0,
+              128
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_23",
+            "start": [
+              32,
+              0,
+              144
+            ],
+            "end": [
+              38,
+              0,
+              144
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_24",
+            "start": [
+              42,
+              0,
+              144
+            ],
+            "end": [
+              52,
+              0,
+              144
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_25",
+            "start": [
+              32,
+              0,
+              160
+            ],
+            "end": [
+              42,
+              0,
+              160
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_26",
+            "start": [
+              46,
+              0,
+              160
+            ],
+            "end": [
+              52,
+              0,
+              160
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_27",
+            "start": [
+              32,
+              0,
+              144
+            ],
+            "end": [
+              32,
+              0,
+              160
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_28",
+            "start": [
+              52,
+              0,
+              144
+            ],
+            "end": [
+              52,
+              0,
+              160
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_29",
+            "start": [
+              40,
+              0,
+              176
+            ],
+            "end": [
+              42,
+              0,
+              176
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_30",
+            "start": [
+              46,
+              0,
+              176
+            ],
+            "end": [
+              72,
+              0,
+              176
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_31",
+            "start": [
+              40,
+              0,
+              200
+            ],
+            "end": [
+              72,
+              0,
+              200
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_32",
+            "start": [
+              40,
+              0,
+              176
+            ],
+            "end": [
+              40,
+              0,
+              200
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_33",
+            "start": [
+              72,
+              0,
+              176
+            ],
+            "end": [
+              72,
+              0,
+              200
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          }
+        ],
+        "poi_markers": [
+          {
+            "id": "poi_spawn",
+            "type": "spawn",
+            "position": [
+              60,
+              0.1,
+              16
+            ],
+            "color": "#00ff00",
+            "label": "Spawn",
+            "roomId": "room_1"
+          },
+          {
+            "id": "poi_goal",
+            "type": "goal",
+            "position": [
+              56,
+              0.1,
+              188
+            ],
+            "color": "#ff0000",
+            "label": "Goal",
+            "roomId": "room_6"
+          },
+          {
+            "id": "poi_treasure",
+            "type": "treasure",
+            "position": [
+              42,
+              0.1,
+              152
+            ],
+            "color": "#ffd700",
+            "label": "Treasure",
+            "roomId": "room_5"
+          },
+          {
+            "id": "poi_boss",
+            "type": "boss",
+            "position": [
+              56,
+              0.1,
+              188
+            ],
+            "color": "#ffffff",
+            "label": "Boss",
+            "roomId": "room_6"
+          }
+        ]
+      },
+      "objects": [
+        {
+          "id": "obj_char_001",
+          "reference_id": "char_001",
+          "name": "Sir Gareth the Bold",
+          "model_path": "/assets/char_001.glb",
+          "position": [
+            60,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            3,
+            3,
+            3
+          ],
+          "poi_id": "poi_spawn"
+        },
+        {
+          "id": "obj_char_002",
+          "reference_id": "char_002",
+          "name": "Shadowfang the Ancient",
+          "model_path": "/assets/char_002.glb",
+          "position": [
+            56,
+            0,
+            188
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            5,
+            5,
+            5
+          ],
+          "poi_id": "poi_goal"
+        },
+        {
+          "id": "obj_prop_001",
+          "reference_id": "prop_001",
+          "name": "Ancient Treasure Chest",
+          "model_path": "/assets/prop_001.glb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "id": "obj_prop_002",
+          "reference_id": "prop_002",
+          "name": "Dragon Hoard Pile",
+          "model_path": "/assets/prop_002.glb",
+          "position": [
+            58.598076211353316,
+            0,
+            186.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "id": "obj_prop_003",
+          "reference_id": "prop_003",
+          "name": "Dungeon Gate",
+          "model_path": "/assets/prop_003.glb",
+          "position": [
+            62.598076211353316,
+            0,
+            14.5
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            2,
+            2,
+            2
+          ]
+        }
+      ],
+      "camera": {
+        "default": {
+          "position": [
+            54,
+            153.60000000000002,
+            296
+          ],
+          "look_at": [
+            54,
+            0,
+            104
+          ],
+          "fov": 60
+        },
+        "orbit_target": [
+          54,
+          0,
+          104
+        ],
+        "min_distance": 10,
+        "max_distance": 384
+      }
+    }
+  }
+}

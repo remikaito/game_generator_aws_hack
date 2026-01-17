@@ -1,0 +1,1626 @@
+{
+  "metadata": {
+    "id": "level_2d52b9ac",
+    "title": "Forest of Shadows",
+    "genre": "horror",
+    "style": "realistic",
+    "prompt": "a slender man game in a dark forest. I want slender man characters and assets",
+    "createdAt": 1768603513448,
+    "updatedAt": 1768603513448,
+    "dataPath": "level_2d52b9ac.json",
+    "roomCount": 7,
+    "assetCount": 5
+  },
+  "sessionState": {
+    "session_id": "4bbea85e-48f7-4fcb-8cd9-ca958adc1b03",
+    "prompt": "a slender man game in a dark forest. I want slender man characters and assets",
+    "created_at": 1768603305265,
+    "updated_at": 1768603426572,
+    "progress": {
+      "step": "ready",
+      "status": "done"
+    },
+    "assets": [
+      {
+        "id": "char_001",
+        "name": "Investigator",
+        "type": "character",
+        "path": "/assets/char_001.glb",
+        "status": "ready",
+        "prompt": "game character, low poly stylized, dark jacket, flashlight in hand, investigator, realistic proportions, horror game style"
+      },
+      {
+        "id": "char_002",
+        "name": "Slender Man",
+        "type": "character",
+        "path": "/assets/char_002.glb",
+        "status": "ready",
+        "prompt": "game character, low poly stylized, slender man, tall thin figure, black business suit, no face, white head, elongated arms, horror creature, minimalist design"
+      },
+      {
+        "id": "prop_001",
+        "name": "Mysterious Note",
+        "type": "prop",
+        "path": "/assets/prop_001.glb",
+        "status": "ready",
+        "prompt": "aged paper note, pinned to tree bark, horror game prop, weathered texture, mysterious writing"
+      },
+      {
+        "id": "prop_002",
+        "name": "Abandoned Campsite",
+        "type": "prop",
+        "path": "/assets/prop_002.glb",
+        "status": "ready",
+        "prompt": "abandoned camping tent, collapsed fabric, scattered camping equipment, cold campfire, horror game environment prop"
+      },
+      {
+        "id": "prop_003",
+        "name": "Dead Tree Marker",
+        "type": "prop",
+        "path": "/assets/prop_003.glb",
+        "status": "ready",
+        "prompt": "dead leafless tree, gnarled branches, carved symbols in bark, spooky forest landmark, horror game prop"
+      }
+    ],
+    "game_context": {
+      "game_title": "Forest of Shadows",
+      "genre": "horror",
+      "mood": "dark",
+      "style": "realistic",
+      "level": {
+        "type": "forest",
+        "scale": "large",
+        "layout_style": "branching",
+        "constraints": [
+          "dense tree coverage",
+          "limited visibility",
+          "winding paths",
+          "dead ends",
+          "clearings"
+        ]
+      },
+      "characters": [
+        {
+          "id": "char_001",
+          "name": "Investigator",
+          "role": "protagonist",
+          "description": "A lone investigator in dark clothing with a flashlight, searching through the haunted forest",
+          "tripo_prompt": "game character, low poly stylized, dark jacket, flashlight in hand, investigator, realistic proportions, horror game style"
+        },
+        {
+          "id": "char_002",
+          "name": "Slender Man",
+          "role": "antagonist",
+          "description": "Tall, unnaturally thin figure in black suit, faceless white head, extremely long limbs, standing 8-9 feet tall",
+          "tripo_prompt": "game character, low poly stylized, slender man, tall thin figure, black business suit, no face, white head, elongated arms, horror creature, minimalist design"
+        }
+      ],
+      "environment": {
+        "name": "Haunted Pine Forest",
+        "description": "Dense, dark forest with towering pine trees, thick fog rolling between trunks, scattered dead trees, overgrown undergrowth, and mysterious clearings",
+        "skybox_prompt": "360 degree dark forest canopy, thick pine trees reaching up, patches of stormy night sky visible through branches, heavy fog, moonlight filtering through leaves, ominous atmosphere",
+        "lighting": "moonlight",
+        "time_of_day": "night"
+      },
+      "props": [
+        {
+          "id": "prop_001",
+          "name": "Mysterious Note",
+          "description": "Weathered paper pinned to a tree trunk with cryptic writing and disturbing sketches",
+          "tripo_prompt": "aged paper note, pinned to tree bark, horror game prop, weathered texture, mysterious writing",
+          "placement_tags": [
+            "mid",
+            "corridor"
+          ]
+        },
+        {
+          "id": "prop_002",
+          "name": "Abandoned Campsite",
+          "description": "Old tent partially collapsed, scattered camping gear, cold fire pit with ash remains",
+          "tripo_prompt": "abandoned camping tent, collapsed fabric, scattered camping equipment, cold campfire, horror game environment prop",
+          "placement_tags": [
+            "mid"
+          ]
+        },
+        {
+          "id": "prop_003",
+          "name": "Dead Tree Marker",
+          "description": "Leafless, gnarled tree with strange symbols carved into its bark, serves as a landmark",
+          "tripo_prompt": "dead leafless tree, gnarled branches, carved symbols in bark, spooky forest landmark, horror game prop",
+          "placement_tags": [
+            "goal",
+            "mid"
+          ]
+        }
+      ]
+    },
+    "level_layout": {
+      "level": {
+        "name": "Forest of Shadows",
+        "type": "forest",
+        "theme": "Haunted Pine Forest",
+        "grid": {
+          "cellSize": 4,
+          "totalWidth": 35,
+          "totalHeight": 45
+        },
+        "rooms": [
+          {
+            "id": "room_1",
+            "name": "Forest Edge",
+            "gridX": 15,
+            "gridY": 2,
+            "width": 5,
+            "height": 4,
+            "tags": [
+              "entry"
+            ]
+          },
+          {
+            "id": "room_2",
+            "name": "Twisted Grove",
+            "gridX": 13,
+            "gridY": 8,
+            "width": 6,
+            "height": 4,
+            "tags": [
+              "twisted"
+            ]
+          },
+          {
+            "id": "room_3",
+            "name": "Ancient Clearing",
+            "gridX": 5,
+            "gridY": 15,
+            "width": 5,
+            "height": 5,
+            "tags": [
+              "ancient"
+            ]
+          },
+          {
+            "id": "room_4",
+            "name": "Shadow Hollow",
+            "gridX": 22,
+            "gridY": 16,
+            "width": 6,
+            "height": 4,
+            "tags": [
+              "hollow"
+            ]
+          },
+          {
+            "id": "room_5",
+            "name": "Whispering Thicket",
+            "gridX": 8,
+            "gridY": 25,
+            "width": 4,
+            "height": 5,
+            "tags": [
+              "whispers"
+            ]
+          },
+          {
+            "id": "room_6",
+            "name": "Dead Tree Circle",
+            "gridX": 20,
+            "gridY": 27,
+            "width": 5,
+            "height": 4,
+            "tags": [
+              "dead"
+            ]
+          },
+          {
+            "id": "room_7",
+            "name": "Heart of Darkness",
+            "gridX": 14,
+            "gridY": 36,
+            "width": 7,
+            "height": 6,
+            "tags": [
+              "goal",
+              "darkness"
+            ]
+          }
+        ],
+        "corridors": [
+          {
+            "id": "corr_1",
+            "fromRoom": "room_1",
+            "toRoom": "room_2",
+            "segments": [
+              {
+                "startX": 17,
+                "startY": 6,
+                "endX": 17,
+                "endY": 8
+              }
+            ],
+            "widthCells": 1,
+            "startX": 17,
+            "startY": 6,
+            "endX": 17,
+            "endY": 8
+          },
+          {
+            "id": "corr_2",
+            "fromRoom": "room_2",
+            "toRoom": "room_3",
+            "segments": [
+              {
+                "startX": 13,
+                "startY": 10,
+                "endX": 7,
+                "endY": 10
+              },
+              {
+                "startX": 7,
+                "startY": 10,
+                "endX": 7,
+                "endY": 15
+              }
+            ],
+            "widthCells": 1,
+            "startX": 13,
+            "startY": 10,
+            "endX": 7,
+            "endY": 15
+          },
+          {
+            "id": "corr_3",
+            "fromRoom": "room_2",
+            "toRoom": "room_4",
+            "segments": [
+              {
+                "startX": 19,
+                "startY": 10,
+                "endX": 25,
+                "endY": 10
+              },
+              {
+                "startX": 25,
+                "startY": 10,
+                "endX": 25,
+                "endY": 16
+              }
+            ],
+            "widthCells": 1,
+            "startX": 19,
+            "startY": 10,
+            "endX": 25,
+            "endY": 16
+          },
+          {
+            "id": "corr_4",
+            "fromRoom": "room_3",
+            "toRoom": "room_5",
+            "segments": [
+              {
+                "startX": 9,
+                "startY": 20,
+                "endX": 9,
+                "endY": 25
+              }
+            ],
+            "widthCells": 1,
+            "startX": 9,
+            "startY": 20,
+            "endX": 9,
+            "endY": 25
+          },
+          {
+            "id": "corr_5",
+            "fromRoom": "room_4",
+            "toRoom": "room_6",
+            "segments": [
+              {
+                "startX": 23,
+                "startY": 20,
+                "endX": 23,
+                "endY": 27
+              }
+            ],
+            "widthCells": 1,
+            "startX": 23,
+            "startY": 20,
+            "endX": 23,
+            "endY": 27
+          },
+          {
+            "id": "corr_6",
+            "fromRoom": "room_5",
+            "toRoom": "room_7",
+            "segments": [
+              {
+                "startX": 12,
+                "startY": 27,
+                "endX": 17,
+                "endY": 27
+              },
+              {
+                "startX": 17,
+                "startY": 27,
+                "endX": 17,
+                "endY": 36
+              }
+            ],
+            "widthCells": 1,
+            "startX": 12,
+            "startY": 27,
+            "endX": 17,
+            "endY": 36
+          },
+          {
+            "id": "corr_7",
+            "fromRoom": "room_6",
+            "toRoom": "room_7",
+            "segments": [
+              {
+                "startX": 20,
+                "startY": 31,
+                "endX": 20,
+                "endY": 36
+              }
+            ],
+            "widthCells": 1,
+            "startX": 20,
+            "startY": 31,
+            "endX": 20,
+            "endY": 36
+          }
+        ],
+        "pois": [
+          {
+            "id": "poi_spawn",
+            "type": "spawn",
+            "roomId": "room_1",
+            "offsetX": 2,
+            "offsetY": 2
+          },
+          {
+            "id": "poi_goal",
+            "type": "goal",
+            "roomId": "room_7",
+            "offsetX": 3,
+            "offsetY": 3
+          },
+          {
+            "id": "poi_ritual_stones",
+            "type": "ritual_stones",
+            "roomId": "room_3",
+            "offsetX": 2,
+            "offsetY": 2
+          },
+          {
+            "id": "poi_shadow_portal",
+            "type": "shadow_portal",
+            "roomId": "room_4",
+            "offsetX": 3,
+            "offsetY": 2
+          }
+        ],
+        "criticalPath": [
+          "room_1",
+          "room_2",
+          "room_3",
+          "room_5",
+          "room_7"
+        ]
+      }
+    },
+    "skybox": {
+      "id": "skybox_main",
+      "path": "/assets/skybox_1768603366158.jpg",
+      "status": "ready",
+      "prompt": "360 degree dark forest canopy, thick pine trees reaching up, patches of stormy night sky visible through branches, heavy fog, moonlight filtering through leaves, ominous atmosphere"
+    },
+    "scene_config": {
+      "skybox_path": "/assets/skybox_1768603366158.jpg",
+      "ambient_light": {
+        "color": "#1a1a2e",
+        "intensity": 0.2
+      },
+      "directional_light": {
+        "color": "#6a8caf",
+        "intensity": 0.4,
+        "position": [
+          10,
+          20,
+          10
+        ]
+      },
+      "geometry": {
+        "rooms": [
+          {
+            "id": "room_1",
+            "position": [
+              70,
+              0,
+              16
+            ],
+            "size": [
+              20,
+              0.2,
+              16
+            ],
+            "color": "#3a5a3a",
+            "tags": [
+              "entry"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "brick_wall",
+            "wallColor": "#2a4a2a"
+          },
+          {
+            "id": "room_2",
+            "position": [
+              64,
+              0,
+              40
+            ],
+            "size": [
+              24,
+              0.2,
+              16
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "twisted"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_3",
+            "position": [
+              30,
+              0,
+              70
+            ],
+            "size": [
+              20,
+              0.2,
+              20
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "ancient"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_4",
+            "position": [
+              100,
+              0,
+              72
+            ],
+            "size": [
+              24,
+              0.2,
+              16
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "hollow"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_5",
+            "position": [
+              40,
+              0,
+              110
+            ],
+            "size": [
+              16,
+              0.2,
+              20
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "whispers"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_6",
+            "position": [
+              90,
+              0,
+              116
+            ],
+            "size": [
+              20,
+              0.2,
+              16
+            ],
+            "color": "#4a4a4a",
+            "tags": [
+              "dead"
+            ],
+            "floorTexture": "stone_floor",
+            "wallTexture": "stone_wall",
+            "wallColor": "#3a3a3a"
+          },
+          {
+            "id": "room_7",
+            "position": [
+              70,
+              0,
+              156
+            ],
+            "size": [
+              28,
+              0.2,
+              24
+            ],
+            "color": "#5a3a3a",
+            "tags": [
+              "goal",
+              "darkness"
+            ],
+            "floorTexture": "dark_stone",
+            "wallTexture": "dungeon_wall",
+            "wallColor": "#4a2a2a"
+          }
+        ],
+        "corridors": [
+          {
+            "id": "corr_1",
+            "segments": [
+              {
+                "start": [
+                  68,
+                  0,
+                  24
+                ],
+                "end": [
+                  68,
+                  0,
+                  32
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              68,
+              0,
+              24
+            ],
+            "end": [
+              68,
+              0,
+              32
+            ]
+          },
+          {
+            "id": "corr_2",
+            "segments": [
+              {
+                "start": [
+                  52,
+                  0,
+                  40
+                ],
+                "end": [
+                  28,
+                  0,
+                  40
+                ]
+              },
+              {
+                "start": [
+                  28,
+                  0,
+                  40
+                ],
+                "end": [
+                  28,
+                  0,
+                  60
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              52,
+              0,
+              40
+            ],
+            "end": [
+              28,
+              0,
+              60
+            ]
+          },
+          {
+            "id": "corr_3",
+            "segments": [
+              {
+                "start": [
+                  76,
+                  0,
+                  40
+                ],
+                "end": [
+                  100,
+                  0,
+                  40
+                ]
+              },
+              {
+                "start": [
+                  100,
+                  0,
+                  40
+                ],
+                "end": [
+                  100,
+                  0,
+                  64
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              76,
+              0,
+              40
+            ],
+            "end": [
+              100,
+              0,
+              64
+            ]
+          },
+          {
+            "id": "corr_4",
+            "segments": [
+              {
+                "start": [
+                  36,
+                  0,
+                  80
+                ],
+                "end": [
+                  36,
+                  0,
+                  100
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              36,
+              0,
+              80
+            ],
+            "end": [
+              36,
+              0,
+              100
+            ]
+          },
+          {
+            "id": "corr_5",
+            "segments": [
+              {
+                "start": [
+                  92,
+                  0,
+                  80
+                ],
+                "end": [
+                  92,
+                  0,
+                  108
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              92,
+              0,
+              80
+            ],
+            "end": [
+              92,
+              0,
+              108
+            ]
+          },
+          {
+            "id": "corr_6",
+            "segments": [
+              {
+                "start": [
+                  48,
+                  0,
+                  108
+                ],
+                "end": [
+                  68,
+                  0,
+                  108
+                ]
+              },
+              {
+                "start": [
+                  68,
+                  0,
+                  108
+                ],
+                "end": [
+                  68,
+                  0,
+                  144
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              48,
+              0,
+              108
+            ],
+            "end": [
+              68,
+              0,
+              144
+            ]
+          },
+          {
+            "id": "corr_7",
+            "segments": [
+              {
+                "start": [
+                  80,
+                  0,
+                  124
+                ],
+                "end": [
+                  80,
+                  0,
+                  144
+                ]
+              }
+            ],
+            "width": 4,
+            "color": "#3a3a3a",
+            "floorTexture": "stone_floor",
+            "start": [
+              80,
+              0,
+              124
+            ],
+            "end": [
+              80,
+              0,
+              144
+            ]
+          }
+        ],
+        "walls": [
+          {
+            "id": "wall_0",
+            "start": [
+              60,
+              0,
+              8
+            ],
+            "end": [
+              80,
+              0,
+              8
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_1",
+            "start": [
+              60,
+              0,
+              24
+            ],
+            "end": [
+              66,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_2",
+            "start": [
+              70,
+              0,
+              24
+            ],
+            "end": [
+              80,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_3",
+            "start": [
+              60,
+              0,
+              8
+            ],
+            "end": [
+              60,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_4",
+            "start": [
+              80,
+              0,
+              8
+            ],
+            "end": [
+              80,
+              0,
+              24
+            ],
+            "height": 4,
+            "color": "#2a4a2a"
+          },
+          {
+            "id": "wall_5",
+            "start": [
+              52,
+              0,
+              32
+            ],
+            "end": [
+              66,
+              0,
+              32
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_6",
+            "start": [
+              70,
+              0,
+              32
+            ],
+            "end": [
+              76,
+              0,
+              32
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_7",
+            "start": [
+              52,
+              0,
+              48
+            ],
+            "end": [
+              76,
+              0,
+              48
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_8",
+            "start": [
+              52,
+              0,
+              32
+            ],
+            "end": [
+              52,
+              0,
+              38
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_9",
+            "start": [
+              52,
+              0,
+              42
+            ],
+            "end": [
+              52,
+              0,
+              48
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_10",
+            "start": [
+              76,
+              0,
+              32
+            ],
+            "end": [
+              76,
+              0,
+              38
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_11",
+            "start": [
+              76,
+              0,
+              42
+            ],
+            "end": [
+              76,
+              0,
+              48
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_12",
+            "start": [
+              20,
+              0,
+              60
+            ],
+            "end": [
+              26,
+              0,
+              60
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_13",
+            "start": [
+              30,
+              0,
+              60
+            ],
+            "end": [
+              40,
+              0,
+              60
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_14",
+            "start": [
+              20,
+              0,
+              80
+            ],
+            "end": [
+              34,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_15",
+            "start": [
+              38,
+              0,
+              80
+            ],
+            "end": [
+              40,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_16",
+            "start": [
+              20,
+              0,
+              60
+            ],
+            "end": [
+              20,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_17",
+            "start": [
+              40,
+              0,
+              60
+            ],
+            "end": [
+              40,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_18",
+            "start": [
+              88,
+              0,
+              64
+            ],
+            "end": [
+              98,
+              0,
+              64
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_19",
+            "start": [
+              102,
+              0,
+              64
+            ],
+            "end": [
+              112,
+              0,
+              64
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_20",
+            "start": [
+              88,
+              0,
+              80
+            ],
+            "end": [
+              90,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_21",
+            "start": [
+              94,
+              0,
+              80
+            ],
+            "end": [
+              112,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_22",
+            "start": [
+              88,
+              0,
+              64
+            ],
+            "end": [
+              88,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_23",
+            "start": [
+              112,
+              0,
+              64
+            ],
+            "end": [
+              112,
+              0,
+              80
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_24",
+            "start": [
+              32,
+              0,
+              100
+            ],
+            "end": [
+              34,
+              0,
+              100
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_25",
+            "start": [
+              38,
+              0,
+              100
+            ],
+            "end": [
+              48,
+              0,
+              100
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_26",
+            "start": [
+              32,
+              0,
+              120
+            ],
+            "end": [
+              48,
+              0,
+              120
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_27",
+            "start": [
+              32,
+              0,
+              100
+            ],
+            "end": [
+              32,
+              0,
+              120
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_28",
+            "start": [
+              48,
+              0,
+              100
+            ],
+            "end": [
+              48,
+              0,
+              106
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_29",
+            "start": [
+              48,
+              0,
+              110
+            ],
+            "end": [
+              48,
+              0,
+              120
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_30",
+            "start": [
+              80,
+              0,
+              108
+            ],
+            "end": [
+              90,
+              0,
+              108
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_31",
+            "start": [
+              94,
+              0,
+              108
+            ],
+            "end": [
+              100,
+              0,
+              108
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_32",
+            "start": [
+              82,
+              0,
+              124
+            ],
+            "end": [
+              100,
+              0,
+              124
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_34",
+            "start": [
+              80,
+              0,
+              108
+            ],
+            "end": [
+              80,
+              0,
+              124
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_35",
+            "start": [
+              100,
+              0,
+              108
+            ],
+            "end": [
+              100,
+              0,
+              124
+            ],
+            "height": 4,
+            "color": "#3a3a3a"
+          },
+          {
+            "id": "wall_36",
+            "start": [
+              56,
+              0,
+              144
+            ],
+            "end": [
+              66,
+              0,
+              144
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_37",
+            "start": [
+              70,
+              0,
+              144
+            ],
+            "end": [
+              78,
+              0,
+              144
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_38",
+            "start": [
+              82,
+              0,
+              144
+            ],
+            "end": [
+              84,
+              0,
+              144
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_39",
+            "start": [
+              56,
+              0,
+              168
+            ],
+            "end": [
+              84,
+              0,
+              168
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_40",
+            "start": [
+              56,
+              0,
+              144
+            ],
+            "end": [
+              56,
+              0,
+              168
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          },
+          {
+            "id": "wall_41",
+            "start": [
+              84,
+              0,
+              144
+            ],
+            "end": [
+              84,
+              0,
+              168
+            ],
+            "height": 4,
+            "color": "#4a2a2a"
+          }
+        ],
+        "poi_markers": [
+          {
+            "id": "poi_spawn",
+            "type": "spawn",
+            "position": [
+              70,
+              0.1,
+              16
+            ],
+            "color": "#00ff00",
+            "label": "Spawn",
+            "roomId": "room_1"
+          },
+          {
+            "id": "poi_goal",
+            "type": "goal",
+            "position": [
+              70,
+              0.1,
+              156
+            ],
+            "color": "#ff0000",
+            "label": "Goal",
+            "roomId": "room_7"
+          },
+          {
+            "id": "poi_ritual_stones",
+            "type": "ritual_stones",
+            "position": [
+              30,
+              0.1,
+              70
+            ],
+            "color": "#ffffff",
+            "label": "Ritual_stones",
+            "roomId": "room_3"
+          },
+          {
+            "id": "poi_shadow_portal",
+            "type": "shadow_portal",
+            "position": [
+              100,
+              0.1,
+              72
+            ],
+            "color": "#ffffff",
+            "label": "Shadow_portal",
+            "roomId": "room_4"
+          }
+        ]
+      },
+      "objects": [
+        {
+          "id": "obj_char_001",
+          "reference_id": "char_001",
+          "name": "Investigator",
+          "model_path": "/assets/char_001.glb",
+          "position": [
+            70,
+            0,
+            16
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "poi_id": "poi_spawn"
+        },
+        {
+          "id": "obj_char_002",
+          "reference_id": "char_002",
+          "name": "Slender Man",
+          "model_path": "/assets/char_002.glb",
+          "position": [
+            70,
+            0,
+            156
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "poi_id": "poi_goal"
+        },
+        {
+          "id": "obj_prop_001",
+          "reference_id": "prop_001",
+          "name": "Mysterious Note",
+          "model_path": "/assets/prop_001.glb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "id": "obj_prop_002",
+          "reference_id": "prop_002",
+          "name": "Abandoned Campsite",
+          "model_path": "/assets/prop_002.glb",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ]
+        },
+        {
+          "id": "obj_prop_003",
+          "reference_id": "prop_003",
+          "name": "Dead Tree Marker",
+          "model_path": "/assets/prop_003.glb",
+          "position": [
+            68,
+            0,
+            154
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ]
+        }
+      ],
+      "camera": {
+        "default": {
+          "position": [
+            66,
+            128,
+            248
+          ],
+          "look_at": [
+            66,
+            0,
+            88
+          ],
+          "fov": 60
+        },
+        "orbit_target": [
+          66,
+          0,
+          88
+        ],
+        "min_distance": 10,
+        "max_distance": 320
+      }
+    }
+  }
+}

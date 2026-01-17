@@ -1,0 +1,681 @@
+{
+  "model_3641693ec266": {
+    "prompt": "giant rainbow spiral lollipop, glossy candy texture, colorful swirls, game prop, low poly stylized",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768592980401,
+    "lastAccessed": 1768592980401
+  },
+  "model_0b181279965f": {
+    "prompt": "game character, low poly stylized, cute orange gummy bear mascot, large eyes, rounded body, cheerful expression, bouncy cartoon style, vibrant colors",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768592996820,
+    "lastAccessed": 1768592996820
+  },
+  "model_a5920f17d6f0": {
+    "prompt": "game character, low poly stylized, friendly white marshmallow npc, soft fluffy texture, blue cap, kind expression, stick arms, cute helper character",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768593013365,
+    "lastAccessed": 1768593013365
+  },
+  "model_36c26744be90": {
+    "prompt": "candy cane gate, red white stripes, gingerbread decorations, ornate entrance, game prop, low poly stylized",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768593019343,
+    "lastAccessed": 1768593019343
+  },
+  "model_13c1b12afe14": {
+    "prompt": "game character, low poly stylized, evil licorice villain, black twisted body, candy crown, red glowing eyes, menacing pose, cartoon villain style",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768593032100,
+    "lastAccessed": 1768593032100
+  },
+  "skybox_542c8e01d18b": {
+    "prompt": "360 degree medieval castle interior, gothic stone arches, dim torchlight, cracked walls, ancient banners, dark atmospheric lighting",
+    "type": "skybox",
+    "path": "/assets/skybox_1768593399301.jpg",
+    "createdAt": 1768593400276,
+    "lastAccessed": 1768593400276
+  },
+  "model_5ba6bf947014": {
+    "prompt": "game character, low poly stylized, medieval knight in plate armor, blue and silver tabard, sword and shield, heroic pose",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768593443349,
+    "lastAccessed": 1768593443349
+  },
+  "model_cd43fb4a7708": {
+    "prompt": "game character, low poly stylized, large black dragon, red glowing eyes, dark scales, spread wings, intimidating pose",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768593452166,
+    "lastAccessed": 1768593452166
+  },
+  "model_a2e53ff800c0": {
+    "prompt": "medieval treasure chest, gold coins, gems, ornate design, fantasy style",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768593458066,
+    "lastAccessed": 1768593458066
+  },
+  "model_52db8a579595": {
+    "prompt": "medieval stone altar, carved runes, candles, weathered texture, fantasy mystical",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768593465028,
+    "lastAccessed": 1768593465028
+  },
+  "model_f005d1693bc9": {
+    "prompt": "Medieval stone tunnel with arched ceiling and rough stone walls, weathered and ancient, suitable for a dark RPG castle dungeon, modular tunnel section",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768593782932,
+    "lastAccessed": 1768593782932
+  },
+  "model_f7fd7b6a6d6b": {
+    "prompt": "golden candy cane key, twisted shape, sugar crystals, metallic gold material, sparkling details, game collectible, low poly",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768595632777,
+    "lastAccessed": 1768595632777
+  },
+  "model_fdf267d17f09": {
+    "prompt": "bouncy gummy platform, translucent colorful candy material, rectangular shape, glossy surface, rainbow colors, game prop, low poly",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768595647327,
+    "lastAccessed": 1768595647327
+  },
+  "model_c4e7d9086d19": {
+    "prompt": "game character, low poly stylized, sour candy villain, green and yellow colors, crystal crown, sharp teeth, spiky armor, mischievous grin, candy texture",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768595651449,
+    "lastAccessed": 1768595651449
+  },
+  "model_a64a7fa4033b": {
+    "prompt": "large peppermint candy checkpoint, red and white spiral stripes, circular shape, spinning animation ready, glossy candy surface, game checkpoint, low poly",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768595661585,
+    "lastAccessed": 1768595661585
+  },
+  "model_bece8b5c9dc5": {
+    "prompt": "game character, low poly stylized, cute pink gumdrop mascot, round body, big eyes, rainbow sprinkles, glossy candy texture, cheerful expression, small arms and legs",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768595672194,
+    "lastAccessed": 1768595672194
+  },
+  "model_10ba683c9bd7": {
+    "prompt": "a magical treasure chest made of colorful crystalline candy, with sparkling sugar crystals and rainbow candy gems, sweet platformer game style, cheerful and whimsical",
+    "type": "model",
+    "path": "/assets/prop_004.glb",
+    "createdAt": 1768596050076,
+    "lastAccessed": 1768596050076
+  },
+  "model_8ab63b265ce8": {
+    "prompt": "sci-fi computer terminal, holographic display, metallic console, warning lights, futuristic interface",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768597073473,
+    "lastAccessed": 1768597073473
+  },
+  "model_e8a62c016aa8": {
+    "prompt": "game character, low poly stylized, alien creature, black chitinous exoskeleton, elongated limbs, predatory pose, glowing red eyes, sci-fi monster",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768597097988,
+    "lastAccessed": 1768597097988
+  },
+  "model_df78a4e21438": {
+    "prompt": "game character, low poly stylized, space marine soldier, futuristic tactical armor, helmet with glowing visor, military gear, sci-fi warrior",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768597106707,
+    "lastAccessed": 1768597106707
+  },
+  "skybox_bf315226c20d": {
+    "prompt": "360 degree candy wonderland panorama, cotton candy pink and blue sky, gumdrop hills, chocolate rivers, lollipop trees, rainbow bridges, bright colorful cartoon style",
+    "type": "skybox",
+    "path": "/assets/skybox_1768597685565.jpg",
+    "createdAt": 1768597686889,
+    "lastAccessed": 1768597686889
+  },
+  "model_5267642690f4": {
+    "prompt": "bouncy gummy platform, translucent green, jelly texture, rectangular shape, game platform, cartoon style",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768597722896,
+    "lastAccessed": 1768597722896
+  },
+  "model_2d59cc6c4da1": {
+    "prompt": "giant rainbow lollipop, swirled colors, white stick, shiny candy surface, cartoon style, game prop",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768597726881,
+    "lastAccessed": 1768597726881
+  },
+  "model_83e9b8d403a2": {
+    "prompt": "golden candy key, wrapped candy shape, decorative bow, shimmering metallic surface, game collectible item",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768597730910,
+    "lastAccessed": 1768597730910
+  },
+  "model_a3caf3f26864": {
+    "prompt": "game character, low poly stylized, chocolate chip cookie villain, black top hat, arms and legs, mischievous expression, crumbly texture, cartoon boss",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768597756634,
+    "lastAccessed": 1768597756634
+  },
+  "model_f8b02209c2ac": {
+    "prompt": "game character, low poly stylized, cute orange gummy bear mascot, blue cape, red boots, big eyes, cheerful cartoon style, bouncy pose",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768597763180,
+    "lastAccessed": 1768597763180
+  },
+  "skybox_7dd58290d0f6": {
+    "prompt": "360 degree dark medieval castle interior, stone walls, gothic arches, flickering torchlight, shadows, misty atmosphere, dark fantasy environment",
+    "type": "skybox",
+    "path": "/assets/skybox_1768598252506.jpg",
+    "createdAt": 1768598254814,
+    "lastAccessed": 1768598254814
+  },
+  "model_a50bd5b214fa": {
+    "prompt": "game character, low poly stylized, elderly wizard, brown robes, grey beard, wooden staff, crystal orb, medieval fantasy NPC",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768598300000,
+    "lastAccessed": 1768598300000
+  },
+  "model_828e2db35001": {
+    "prompt": "game character, low poly stylized, medieval knight, steel plate armor, blue and gold colors, sword and shield, heroic pose, fantasy RPG character",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768598301003,
+    "lastAccessed": 1768598301003
+  },
+  "model_e75cc661ab5f": {
+    "prompt": "iron portcullis gate, rusted metal, medieval castle, stone archway, fortress barrier, low poly game asset",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768598309627,
+    "lastAccessed": 1768598309627
+  },
+  "model_8597d724545c": {
+    "prompt": "treasure pile, gold coins, medieval artifacts, jewels, fantasy hoard, low poly game asset",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768598317629,
+    "lastAccessed": 1768598317629
+  },
+  "model_b5dd1d1778b0": {
+    "prompt": "game character, low poly stylized, large red dragon, obsidian spikes, glowing eyes, weathered scales, fantasy creature, boss monster",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768598328425,
+    "lastAccessed": 1768598328425
+  },
+  "model_487f19ea51a8": {
+    "prompt": "medieval stone throne, dragon carvings, dark gems, gothic design, castle furniture, low poly game prop",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768598345571,
+    "lastAccessed": 1768598345571
+  },
+  "skybox_a7af9bc34c24": {
+    "prompt": "360 degree panoramic view of stormy dark clouds surrounding a medieval fortress, lightning flashes, misty mountains in distance, ominous purple twilight sky",
+    "type": "skybox",
+    "path": "/assets/skybox_1768599200691.jpg",
+    "createdAt": 1768599201668,
+    "lastAccessed": 1768599201668
+  },
+  "model_dd4d51eaef3c": {
+    "prompt": "game character, low poly stylized, large black dragon, crimson eyes, dark scales, tattered wings, menacing pose, fantasy boss monster",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768599239051,
+    "lastAccessed": 1768599239051
+  },
+  "model_6bf3663f29e7": {
+    "prompt": "medieval iron brazier, blue magical flames, stone pedestal, fantasy lighting prop, castle interior",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768599246855,
+    "lastAccessed": 1768599246855
+  },
+  "model_6dbcf9a90364": {
+    "prompt": "fantasy treasure chest, overflowing gold coins, magical gems, ornate medieval design, dragon scales nearby",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768599265703,
+    "lastAccessed": 1768599265703
+  },
+  "model_9b82a61cc98a": {
+    "prompt": "game character, low poly stylized, old wizard, long white beard, tattered robes, magical staff, glowing crystal, fantasy mage",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768599266894,
+    "lastAccessed": 1768599266894
+  },
+  "model_55322994ecd4": {
+    "prompt": "game character, low poly stylized, medieval knight, silver plate armor, blue cape, sword and shield, heroic pose, fantasy warrior",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768599286638,
+    "lastAccessed": 1768599286638
+  },
+  "skybox_c131c2e5ac87": {
+    "prompt": "360 degree dark forest night scene, thick fog, tall pine trees silhouettes, dim moonlight filtering through branches, ominous atmosphere, no visible horizon",
+    "type": "skybox",
+    "path": "/assets/skybox_1768600059512.jpg",
+    "createdAt": 1768600060421,
+    "lastAccessed": 1768600060421
+  },
+  "model_484c377b5901": {
+    "prompt": "game character, low poly stylized, slender man, extremely tall thin figure, black business suit, blank white face, no facial features, long spider-like arms, horror character",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768600088877,
+    "lastAccessed": 1768600088877
+  },
+  "model_4bfd95d781a9": {
+    "prompt": "game character, low poly stylized, human survivor wearing jeans and hoodie, holding flashlight, scared expression, realistic proportions",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768600101773,
+    "lastAccessed": 1768600101773
+  },
+  "model_85a774a3eaa9": {
+    "prompt": "game prop, low poly stylized, old metal flashlight lying on forest ground, flickering light beam, weathered and dented",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768600123249,
+    "lastAccessed": 1768600123249
+  },
+  "model_351a34082558": {
+    "prompt": "game prop, low poly stylized, stone circle ritual site, carved occult symbols, dead grass, withered branches, ominous altar",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768600129484,
+    "lastAccessed": 1768600129484
+  },
+  "skybox_f8b6fa01e2cd": {
+    "prompt": "360 degree space view with distant blue planet, nebula clouds, bright stars, space station exterior panels visible at edges, deep cosmic background",
+    "type": "skybox",
+    "path": "/assets/skybox_1768600433946.jpg",
+    "createdAt": 1768600435166,
+    "lastAccessed": 1768600435166
+  },
+  "model_93dcd94694f9": {
+    "prompt": "game character, low poly stylized, scientist character in white lab coat, holding tablet device, worried expression, civilian clothing",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768600476505,
+    "lastAccessed": 1768600476505
+  },
+  "model_e10c270e1b3a": {
+    "prompt": "small spacecraft escape pod, white and blue hull, thruster engines, sci-fi vehicle design, low poly",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768600488983,
+    "lastAccessed": 1768600488983
+  },
+  "model_c9ec353ed6b0": {
+    "prompt": "futuristic wall console with holographic screen, red warning lights, metallic sci-fi design, low poly",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768600504528,
+    "lastAccessed": 1768600504528
+  },
+  "model_55d91bcd1c2d": {
+    "prompt": "game character, low poly stylized, alien creature with dark chitinous shell, four arms, glowing blue markings, insectoid features, menacing pose",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768600506997,
+    "lastAccessed": 1768600506997
+  },
+  "model_800303f92b43": {
+    "prompt": "sci-fi weapon storage locker, metallic blue finish, energy rifles inside, futuristic military equipment, low poly",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768600532622,
+    "lastAccessed": 1768600532622
+  },
+  "model_a066f91a6bdd": {
+    "prompt": "game character, low poly stylized, space marine soldier in blue tactical armor with helmet, futuristic rifle, sci-fi military gear",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768600541189,
+    "lastAccessed": 1768600541189
+  },
+  "skybox_6a5f8038e8eb": {
+    "prompt": "360 degree dark medieval castle interior, stone walls, gothic arches, dim torchlight, shadows, ancient banners, mysterious atmosphere",
+    "type": "skybox",
+    "path": "/assets/skybox_1768601272933.jpg",
+    "createdAt": 1768601273854,
+    "lastAccessed": 1768601273854
+  },
+  "model_219060b746cd": {
+    "prompt": "medieval weapon rack, swords and maces, wooden stand, fantasy weapons display, castle armory",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768601308042,
+    "lastAccessed": 1768601308042
+  },
+  "model_4f14ecd3f8a1": {
+    "prompt": "medieval treasure pile, gold coins, gems, ancient artifacts, fantasy loot, castle interior prop",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768601349125,
+    "lastAccessed": 1768601349125
+  },
+  "model_7f1d53c4065e": {
+    "prompt": "game character, low poly stylized, medieval knight in silver plate armor, blue surcoat, sword and shield, heroic pose, fantasy warrior",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768601354278,
+    "lastAccessed": 1768601354278
+  },
+  "model_ff2008e8c403": {
+    "prompt": "medieval stone archway, glowing magical runes, portal gate, fantasy architecture, castle entrance",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768601369042,
+    "lastAccessed": 1768601369042
+  },
+  "model_a2fcac7ddec0": {
+    "prompt": "game character, low poly stylized, large black dragon, red glowing eyes, dark scales, fantasy boss monster, menacing pose",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768601378845,
+    "lastAccessed": 1768601378845
+  },
+  "model_3c8693f933c5": {
+    "prompt": "game character, low poly stylized, elderly wizard, white beard, tattered robes, magical staff, wise old mage",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768601388395,
+    "lastAccessed": 1768601388395
+  },
+  "skybox_769b9af1d311": {
+    "prompt": "360 degree medieval castle interior, stone walls, gothic arches, dim torchlight, shadows, ancient banners, atmospheric lighting, dark fantasy",
+    "type": "skybox",
+    "path": "/assets/skybox_1768601978591.jpg",
+    "createdAt": 1768601979993,
+    "lastAccessed": 1768601979993
+  },
+  "model_6da24679b8c4": {
+    "prompt": "game character, low poly stylized, medieval knight in silver armor, blue tabard, sword and shield, heroic pose, clean geometry",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768602021393,
+    "lastAccessed": 1768602021393
+  },
+  "model_7cd05779037d": {
+    "prompt": "medieval treasure pile, gold coins, gems, ancient artifacts, low poly, fantasy game asset",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768602036490,
+    "lastAccessed": 1768602036490
+  },
+  "model_bd6b47d6e73d": {
+    "prompt": "game character, low poly stylized, large black dragon, red glowing eyes, tattered wings, angular features, boss monster design",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768602043174,
+    "lastAccessed": 1768602043174
+  },
+  "model_08e81d4425dd": {
+    "prompt": "medieval castle gate, heavy wooden doors, iron reinforcement, ancient locks, low poly game asset",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768602043862,
+    "lastAccessed": 1768602043862
+  },
+  "model_7a62cb592f09": {
+    "prompt": "game character, low poly stylized, old wizard, tattered blue robes, gnarled wooden staff, long white beard, mystical appearance",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768602058009,
+    "lastAccessed": 1768602058009
+  },
+  "model_bbaa1c1a8226": {
+    "prompt": "stone medieval throne, dragon carvings, weathered stone, gothic design, low poly game asset",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768602070743,
+    "lastAccessed": 1768602070743
+  },
+  "skybox_11e3efd10d5d": {
+    "prompt": "360 degree medieval castle interior, gothic stone architecture, dim torchlight, cracked walls, high vaulted ceilings, ancient banners, atmospheric shadows",
+    "type": "skybox",
+    "path": "/assets/skybox_1768602632908.jpg",
+    "createdAt": 1768602633903,
+    "lastAccessed": 1768602633903
+  },
+  "model_e772ebe7ca95": {
+    "prompt": "stone pedestal, glowing sword, blue magical light, ancient runes, medieval fantasy weapon stand",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768602652703,
+    "lastAccessed": 1768602652703
+  },
+  "model_83f424015eb3": {
+    "prompt": "game character, low poly stylized, medieval knight, plate armor, silver and blue colors, sword and shield, heroic pose",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768602672052,
+    "lastAccessed": 1768602672052
+  },
+  "model_84d1825b8bd5": {
+    "prompt": "game character, low poly stylized, black dragon, red glowing eyes, large wings, fire breathing, intimidating boss creature",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768602680407,
+    "lastAccessed": 1768602680407
+  },
+  "model_6f97390dab98": {
+    "prompt": "medieval stone throne, dragon carvings, treasure pile, gold coins, dark stone, ornate design",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768602687732,
+    "lastAccessed": 1768602687732
+  },
+  "model_e3b117d9e9c3": {
+    "prompt": "medieval castle gate, wooden doors, iron reinforcement, heavy chains, battle damage, gothic architecture",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768602689801,
+    "lastAccessed": 1768602689801
+  },
+  "skybox_98821266018f": {
+    "prompt": "360 degree dark forest canopy, thick pine trees reaching up, patches of stormy night sky visible through branches, heavy fog, moonlight filtering through leaves, ominous atmosphere",
+    "type": "skybox",
+    "path": "/assets/skybox_1768603366158.jpg",
+    "createdAt": 1768603367239,
+    "lastAccessed": 1768603367239
+  },
+  "model_1346ad181aa9": {
+    "prompt": "abandoned camping tent, collapsed fabric, scattered camping equipment, cold campfire, horror game environment prop",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768603395877,
+    "lastAccessed": 1768603395877
+  },
+  "model_18dab4048201": {
+    "prompt": "game character, low poly stylized, slender man, tall thin figure, black business suit, no face, white head, elongated arms, horror creature, minimalist design",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768603396511,
+    "lastAccessed": 1768603396511
+  },
+  "model_107794125653": {
+    "prompt": "dead leafless tree, gnarled branches, carved symbols in bark, spooky forest landmark, horror game prop",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768603401951,
+    "lastAccessed": 1768603401951
+  },
+  "model_47b0778a91e2": {
+    "prompt": "aged paper note, pinned to tree bark, horror game prop, weathered texture, mysterious writing",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768603420911,
+    "lastAccessed": 1768603420911
+  },
+  "model_2108dfdc7737": {
+    "prompt": "game character, low poly stylized, dark jacket, flashlight in hand, investigator, realistic proportions, horror game style",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768603426570,
+    "lastAccessed": 1768603426570
+  },
+  "skybox_6807dcc6c266": {
+    "prompt": "360 degree dark medieval castle interior, stone walls with torch sconces, arched windows showing stormy night sky, gothic architecture, atmospheric lighting",
+    "type": "skybox",
+    "path": "/assets/skybox_1768604045596.jpg",
+    "createdAt": 1768604046587,
+    "lastAccessed": 1768604046587
+  },
+  "model_1528b9d23393": {
+    "prompt": "game character, low poly stylized, large black dragon boss, red glowing eyes, dark scales, purple flame breath, medieval fantasy, imposing presence",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768604097746,
+    "lastAccessed": 1768604097746
+  },
+  "model_52091e365c01": {
+    "prompt": "medieval portcullis gate, iron bars, castle entrance, weathered metal, low poly game prop",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768604116138,
+    "lastAccessed": 1768604116138
+  },
+  "model_c180fac38ec5": {
+    "prompt": "medieval treasure pile, gold coins and jewels, fantasy loot, low poly game asset",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768604118880,
+    "lastAccessed": 1768604118880
+  },
+  "model_f735574a727c": {
+    "prompt": "medieval stone throne, dragon carvings, royal seat, dark fantasy furniture, low poly game asset",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768604137506,
+    "lastAccessed": 1768604137506
+  },
+  "model_04c7c46012fc": {
+    "prompt": "game character, low poly stylized, medieval knight in shining plate armor, blue and silver details, longsword and shield, heroic stance, fantasy RPG character",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768604149929,
+    "lastAccessed": 1768604149929
+  },
+  "skybox_53382245bc19": {
+    "prompt": "360 degree underground dungeon ceiling view, stone arches, hanging chains, dim torchlight, shadows, medieval stonework, atmospheric fog",
+    "type": "skybox",
+    "path": "/assets/skybox_1768607236270.jpg",
+    "createdAt": 1768607237836,
+    "lastAccessed": 1768607237836
+  },
+  "model_8a0a835470d1": {
+    "prompt": "dragon treasure hoard, gold coins pile, jewels, medieval artifacts, glittering wealth, fantasy game prop",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768607249627,
+    "lastAccessed": 1768607249627
+  },
+  "model_b336a2a9a20c": {
+    "prompt": "ancient black dragon, game character, low poly stylized, massive wings, scarred scales, glowing red eyes, dark fantasy creature",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768607252118,
+    "lastAccessed": 1768607252118
+  },
+  "model_f1b3eb955698": {
+    "prompt": "medieval knight character, game character, low poly stylized, plate armor, longsword, shield, heroic pose, weathered metal textures",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768607253366,
+    "lastAccessed": 1768607253366
+  },
+  "model_dae1ea36d3ec": {
+    "prompt": "medieval iron portcullis gate, rusted chains, stone archway, dungeon entrance, weathered metal textures",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768607273486,
+    "lastAccessed": 1768607273486
+  },
+  "model_388224a34f0a": {
+    "prompt": "medieval treasure chest, wooden with iron bands, ornate lock, aged textures, fantasy game prop",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768607280021,
+    "lastAccessed": 1768607280021
+  },
+  "skybox_5fbc11cccfd5": {
+    "prompt": "360 degree view of dark underground cavern ceiling with stalactites, dim torch light flickering on rough stone walls, mysterious shadows, medieval dungeon atmosphere",
+    "type": "skybox",
+    "path": "/assets/skybox_1768607614922.jpg",
+    "createdAt": 1768607616084,
+    "lastAccessed": 1768607616084
+  },
+  "model_10e8ea868d76": {
+    "prompt": "game character, low poly stylized, large red dragon, dark wings, glowing eyes, fierce expression, fantasy boss creature, detailed scales",
+    "type": "model",
+    "path": "/assets/char_002.glb",
+    "createdAt": 1768607658068,
+    "lastAccessed": 1768607658068
+  },
+  "model_439f6cd4bb25": {
+    "prompt": "treasure pile, gold coins and jewels, medieval fantasy loot, glittering hoard, game collectible prop",
+    "type": "model",
+    "path": "/assets/prop_002.glb",
+    "createdAt": 1768607658424,
+    "lastAccessed": 1768607658424
+  },
+  "model_ca78889ddf70": {
+    "prompt": "medieval iron brazier, burning flames, wrought iron pedestal, dungeon lighting, fantasy game prop",
+    "type": "model",
+    "path": "/assets/prop_003.glb",
+    "createdAt": 1768607667291,
+    "lastAccessed": 1768607667291
+  },
+  "model_77e5454f3c30": {
+    "prompt": "game character, low poly stylized, skeleton warrior, tattered armor, rusty weapon, glowing red eyes, undead enemy",
+    "type": "model",
+    "path": "/assets/char_003.glb",
+    "createdAt": 1768607682316,
+    "lastAccessed": 1768607682316
+  },
+  "model_1aa980015e9d": {
+    "prompt": "game character, low poly stylized, medieval knight in full plate armor, blue surcoat, sword and shield, heroic pose, fantasy rpg character",
+    "type": "model",
+    "path": "/assets/char_001.glb",
+    "createdAt": 1768607683335,
+    "lastAccessed": 1768607683335
+  },
+  "model_4f4debf7c21d": {
+    "prompt": "medieval dungeon door, heavy wood with iron reinforcement, stone archway, carved runes, fantasy game prop",
+    "type": "model",
+    "path": "/assets/prop_001.glb",
+    "createdAt": 1768607694587,
+    "lastAccessed": 1768607694587
+  },
+  "model_294142560e29": {
+    "prompt": "majestic aquatic dragon with blue-green scales, webbed fins, glowing eyes, standing in an underwater cavern, fantasy RPG style, dark atmospheric lighting",
+    "type": "model",
+    "path": "/assets/dragon_guardian.glb",
+    "createdAt": 1768607943762,
+    "lastAccessed": 1768607943762
+  }
+}
