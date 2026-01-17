@@ -36,11 +36,19 @@ Game Prototype Generator is an AI-powered application that transforms natural la
 
 ## 🎬 Demo
 
-### Watch the Demo Video
+### 🎥 Watch the Demo Video
 
-[![Game Prototype Generator Demo](https://img.youtube.com/vi/RIs4LgfX2L4/maxresdefault.jpg)](https://youtu.be/RIs4LgfX2L4?si=ir1UO0hWj_4hPyVt)
+<div align="center">
 
-> 🎥 **Click the image above to watch the full demo on YouTube**
+[![Watch the Demo](https://img.shields.io/badge/▶_Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/RIs4LgfX2L4?si=ir1UO0hWj_4hPyVt)
+
+**[📺 Click here to watch the full demo on YouTube](https://youtu.be/RIs4LgfX2L4?si=ir1UO0hWj_4hPyVt)**
+
+<a href="https://youtu.be/RIs4LgfX2L4?si=ir1UO0hWj_4hPyVt">
+  <img src="https://img.youtube.com/vi/RIs4LgfX2L4/hqdefault.jpg" alt="Demo Video" width="560"/>
+</a>
+
+</div>
 
 ---
 
