@@ -11,6 +11,16 @@
 
 ---
 
+## 🎬 Demo
+
+### Watch the Demo Video
+
+[![Game Prototype Generator Demo](https://img.youtube.com/vi/RIs4LgfX2L4/maxresdefault.jpg)](https://youtu.be/RIs4LgfX2L4?si=ir1UO0hWj_4hPyVt)
+
+> 🎥 **Click the image above to watch the full demo on YouTube**
+
+---
+
 ## 📖 Overview
 
 Game Prototype Generator is an AI-powered application that transforms natural language descriptions into fully interactive 3D game level prototypes. Using a multi-agent architecture powered by Claude AI, the system orchestrates the creation of:
